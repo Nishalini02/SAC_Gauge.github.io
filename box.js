@@ -147,6 +147,22 @@ set myDataSource(dataBinding) {
           value: data[measure].raw,
         };
       });
+	    const myChart = echarts.init(this._root, "wight");
+      const option = {
+        tooltip: {
+          trigger: "item",
+          formatter: "{a} <br/>{b}: {c} ({d}%)",
+        },
+        legend: {
+          data,
+        },
+            data,
+         
+      
+      };
+      myChart.setOption(option);
+    }
+  }
 	}
 	
 	customElements.define("com-demo-gauge", Box);
