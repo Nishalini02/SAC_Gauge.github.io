@@ -165,5 +165,5 @@ set myDataSource(dataBinding) {
   }
 	}
 	
-	customElements.define("com-demo-gauge", Gauge);
+	customElements.define("com-my-gauge", gauge);
 })();
