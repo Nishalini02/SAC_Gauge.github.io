@@ -61,7 +61,7 @@ var getScriptPromisify = (src) => {
 		</div>
 	`;
 
-	class Gauge extends HTMLElement {
+	class Box extends HTMLElement {
 		constructor() {
 			super(); 
 			this._shadowRoot = this.attachShadow({ mode: "open" });
@@ -161,5 +161,5 @@ set myDataSource(dataBinding) {
       myChart.setOption(option);
     }
 }	
-	customElements.define("com-demo-gauge", Gauge);
+	customElements.define("com-demo-gauge", Box);
 })();
