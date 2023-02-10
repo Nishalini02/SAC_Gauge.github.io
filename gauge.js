@@ -61,7 +61,7 @@ var getScriptPromisify = (src) => {
 		</div>
 	`;
 
-	class Box extends HTMLElement {
+	class Gauge extends HTMLElement {
 		constructor() {
 			super(); 
 			this._shadowRoot = this.attachShadow({ mode: "open" });
