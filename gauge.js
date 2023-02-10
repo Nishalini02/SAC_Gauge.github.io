@@ -157,13 +157,9 @@ set myDataSource(dataBinding) {
           data,
         },
             data,
-         
-      
       };
       myChart.setOption(option);
     }
-  }
-	}
-	
+}	
 	customElements.define("com-demo-gauge", Gauge);
 })();
