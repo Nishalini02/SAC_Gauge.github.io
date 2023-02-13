@@ -161,5 +161,5 @@ set myDataSource(dataBinding) {
       myChart.setOption(option);
     }
 }	
-	customElements.define("com-demo-gauge", Box);
+	customElements.define("com-demo-box", Box);
 })();
