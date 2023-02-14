@@ -97,7 +97,7 @@
 		progress(x,ll,ul){
 			var end_x;
 			end_x=(900*(x/(ul-ll)))+50;
-			return "M 50 500 L"+ end_x+" 500";
+			return "M 50 450 L"+ end_x+" 550";
 		};
 		
 		target(x,ll,ul){
